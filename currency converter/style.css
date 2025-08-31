@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #A5668B;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.25); /* semi-transparent */
+    backdrop-filter: blur(10px); /* glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1); /* soft shadow */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select,
+form button,
+form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid #F2D7EE;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #444;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.dropdown i:hover {
+    color: #000;
+    transform: scale(1.2); /* Zoom slightly instead of rotating */
+}
+
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F2D7EE;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.select-container img {
+    max-width: 2rem;
+}
+
+.select-container select {
+    font-size: 1rem;
+    width: auto;
+    background: transparent;
+}
+
+.msg {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+form button {
+    height: 3rem;
+    background-color: #69306D;
+    color: white;
+    font-size: 1.15rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #1A1F74;
+    transform: scale(1.03);
+}
