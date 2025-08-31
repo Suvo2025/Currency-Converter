@@ -35,3 +35,7 @@ Adding historical exchange rate charts 📊
 Dark/Light theme toggle 🌗
 
 Offline conversion mode
+
+
+<img width="422" height="473" alt="image" src="https://github.com/user-attachments/assets/baaf921a-d25a-473c-8f36-4b7451d69556" />
+
